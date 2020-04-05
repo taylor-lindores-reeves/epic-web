@@ -3,6 +3,8 @@ import { Meteor } from "meteor/meteor";
 import { render } from "react-dom";
 import HelloWorld from "../imports/HelloWorld.js";
 
+// Information about this package:
+
 Meteor.startup(() => {
   render(<HelloWorld />, document.getElementById("app"));
 });

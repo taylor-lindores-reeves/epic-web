@@ -32,11 +32,11 @@ export default class HelloWorld extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="wrapper">
         <button onClick={this.changeState.bind(this)}>
           Click me to use state!
         </button>
-        <h1>{this.state.count}</h1>
+        <h1 className="red">{this.state.count}</h1>
         <ToDoList />
 
         <label>Write your todos: &nbsp;</label>
